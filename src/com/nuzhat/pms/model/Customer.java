@@ -1,20 +1,20 @@
 package com.nuzhat.pms.model;
 
-
 public class Customer {
-    private String customerId;
     private String name;
+    private String parcelId; // Explicitly linked Parcel ID
 
-    public Customer(String customerId, String name) {
-        this.customerId = customerId;
+    public Customer(String name, String parcelId) {
         this.name = name;
-    }
-
-    public String getCustomerId() {
-        return customerId;
+        this.parcelId = parcelId;
     }
 
     public String getName() {
         return name;
     }
+
+    public String getParcelId() {
+        return parcelId; // Returns associated Parcel ID
+    }
 }
+

@@ -1,9 +1,8 @@
 package com.nuzhat.pms.model;
 
-
 public class Parcel {
     private String parcelId;
-    private double weight;
+    private double weight; // Weight of the parcel
     private boolean isProcessed;
 
     public Parcel(String parcelId, double weight) {
@@ -32,4 +31,3 @@ public class Parcel {
         return String.format("%s - %.2f kg", parcelId, weight);
     }
 }
-
