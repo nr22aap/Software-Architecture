@@ -3,7 +3,7 @@ package com.nuzhat.pms.view;
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
-git add src/com/nuzhat/pms/view/CustomerQueuePanel.java
+
 public class CustomerQueuePanel extends JPanel {
     private JTextArea customerQueueArea;
 
